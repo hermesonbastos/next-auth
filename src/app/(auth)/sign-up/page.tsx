@@ -1,7 +1,9 @@
+import SignUpForm from "@/components/form/SignUpForm"
+
 const page = () => {
   return (
-    <div className="bg-blue-500 w-full">
-      Sign up
+    <div className="w-full">
+      <SignUpForm />
     </div>
   )
 }
