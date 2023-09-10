@@ -30,6 +30,10 @@ const SignInForm = () => {
 
   const form = useForm<z.infer<typeof FormSchema>>({
     resolver: zodResolver(FormSchema),
+    defaultValues: {
+      email: '',
+      password: '',
+    }
   });
 
   return (
@@ -78,7 +82,7 @@ const SignInForm = () => {
         If you don&apos;t have an account&nbsp;please
         <Link className="text-blue-500 hover:underline" href="/sign-up">
           {" "}
-          Sign up
+          Sign in
         </Link>{" "}
       </p>
     </Form>
