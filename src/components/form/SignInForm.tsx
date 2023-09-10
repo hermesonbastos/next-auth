@@ -75,7 +75,7 @@ const SignInForm = () => {
         or
       </div>
       <p className="text-center text-sm text-gray-600 mt-2">
-        If you don't have an account, please
+        If you don&apos;t have an account&nbsp;please
         <Link className="text-blue-500 hover:underline" href="/sign-up">
           {" "}
           Sign up

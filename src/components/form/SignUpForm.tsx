@@ -75,10 +75,10 @@ const SignUpForm = () => {
         or
       </div>
       <p className="text-center text-sm text-gray-600 mt-2">
-        If you don&apos;t have an account&lsquo;&nbsp;please
-        <Link className="text-blue-500 hover:underline" href="/sign-up">
+        If you don&apos;t have an account&nbsp;please
+        <Link className="text-blue-500 hover:underline" href="/sign-in">
           {" "}
-          Sign up
+          Sign in
         </Link>{" "}
       </p>
     </Form>
